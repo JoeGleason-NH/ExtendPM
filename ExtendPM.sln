@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26430.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ExtendPM", "ExtendPM\ExtendPM.vbproj", "{AEB1CCD3-47E2-4776-8366-5A814BEFA325}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup ExtendPM", "Setup ExtendPM\Setup ExtendPM.vdproj", "{F622AD8F-4CEB-477A-B50B-E93C7E256196}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +17,13 @@ Global
 		{AEB1CCD3-47E2-4776-8366-5A814BEFA325}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AEB1CCD3-47E2-4776-8366-5A814BEFA325}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AEB1CCD3-47E2-4776-8366-5A814BEFA325}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F622AD8F-4CEB-477A-B50B-E93C7E256196}.Debug|Any CPU.ActiveCfg = Debug
+		{F622AD8F-4CEB-477A-B50B-E93C7E256196}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {75CE1E3D-AAD6-4EDB-94E9-3770E96B64C3}
 	EndGlobalSection
 EndGlobal
